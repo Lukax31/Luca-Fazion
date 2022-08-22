@@ -1,0 +1,130 @@
+:root {
+    --verde: #319278;
+    --vinho: #9c2349;
+    --cinzinha: rgba(185, 185, 185, 0.8);
+}
+
+body {
+    font-family: 'Tiro Gurmukhi', serif;
+}
+
+header {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    z-index:-1;
+    max-width: 20%;
+    background-color: var(--verde)
+}
+
+.nomeNoCanto {
+    padding: 20px;
+    border-bottom: 2px solid #0f4d3c;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center; 
+}
+
+p {
+    text-align: center;
+    margin: 4px;
+    line-height: 20px;
+}
+
+.links {
+    margin: 20px;
+}
+
+.links a {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.links input {
+    height: 30px;
+}
+
+#dropcontent {
+    padding: 4px;
+    margin: 8px;
+    background-color: #166d56;
+    display: none;
+    position: absolute;
+    left: 70px;
+    bottom: 68px;
+}
+
+#dropcontent img {
+    height: 30px;
+}
+
+#dropcontent span {
+    font-size: 25px;
+}
+
+#dropcontent a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, #dropcontent a:hover, .textoMain a:hover {
+    text-decoration: underline;
+}
+
+.titleMain {
+    background: var(--vinho);
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-left: 20%;
+}
+
+.textoMain {
+    margin: 45px 70px 30px 320px;
+    position: absolute;
+    right: 100px;
+    padding: 20px 20px 10px;
+    background: var(--cinzinha);
+}
+
+.textoMain a {
+    color: black;
+    text-decoration: none;
+}
+
+.textoMain p {
+    max-width: 800px;
+    text-align: justify;
+    font-size: x-large;
+    line-height: 1.1em;
+}
+
+.backMain {
+    width: 80%;
+    height: 85%;
+    z-index: -3;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.backMain img {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    opacity: 91%;
+}
+
+.textoMain img {
+    float: left;
+    padding-top: 20px;
+    max-width: 400px;
+    padding-right: 20px;
+}
